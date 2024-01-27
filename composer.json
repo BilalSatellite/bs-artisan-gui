@@ -1,0 +1,30 @@
+{
+    "name": "bilalsatellite/bs-artisan-gui",
+    "description": "BsArtisan GUI is a Laravel Graphic User Interface for Artisan Comands.",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bilalsatellite\\BsArtisanGui\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "BilalSatellite",
+            "email": "bilal.satellite@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "sensiolabs/ansi-to-html": "^1.2",
+        "livewire/livewire": "^3.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bilalsatellite\\BsArtisanGui\\BsArtisanGuiServiceProvider"
+            ]
+        }
+    }
+}
